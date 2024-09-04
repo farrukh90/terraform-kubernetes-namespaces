@@ -3,8 +3,9 @@
 ### Add the following into your file 
 ```
 module "example" {
-  source = "../"
-  name   = "my-first-namespace"
+  source          = "farrukh90/namespaces/kubernetes"
+  name            = "my-first-namespace"
+  number_of_pods  = 36
 }
 ```
 
